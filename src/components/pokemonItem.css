@@ -1,0 +1,106 @@
+.Pokemon_item_child_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 294px;
+    height: auto;
+}
+
+.Pokemon_item_child_image_box{
+    text-align: center;
+    z-index: 1;
+    position: relative;
+}
+
+.Pokemon_item_des_main_box{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.03);
+    border-radius: 20px;
+    width: 294px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: -60px;
+    padding-top: 60px;
+    height: 116px;
+}
+
+.Pokemon_item_des_child_box{
+    margin-top: 65px;
+    text-align: center;
+    width: 70%;
+}
+
+.Pokemon_item_des_child_box_title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    color: #1D1C1C;
+}
+
+.Pokemon_item_des_child_box_des{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0F6DB0;
+}
+
+.Pokemon_item_child_box_div{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #6A6969;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Pokemon_item_child_box_button{
+    height: 48px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FDCE29;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.07);
+    border-radius: 25px;
+    top: 25px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #1D1C1C;
+    cursor: pointer;
+    min-width: 80%
+}
+
+.Pokemon_item_child_box_button_selected{
+    height: 48px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1D1C1C;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.07);
+    border-radius: 25px;
+    top: 25px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    min-width: 80%
+}

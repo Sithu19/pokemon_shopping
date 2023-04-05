@@ -1,0 +1,106 @@
+.Cart_main_box{
+    margin-bottom: 30px;
+}
+
+.Cart_child_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Cart_image{
+    width: 77px;
+    height: 106px;
+}
+
+.Cart_des_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.Cart_des_title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #1D1C1C;
+}
+
+.Cart_des_price{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #1D1C1C;
+}
+
+.Cart_des_price_end{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #6A6969;
+    margin-left: 5px;
+}
+
+.Cart_des_card{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FD2929;
+}
+
+.Cart_des_card_end{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #BCBBBB;
+    margin-left: 5px;
+}
+
+.Cart_total_qty{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: right;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #298BFD;
+}
+
+.Cart_total_price_{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: right;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #1D1C1C;
+}
+
+.Cart_price_data{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #298BFD;
+}
