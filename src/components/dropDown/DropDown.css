@@ -20,6 +20,12 @@
     margin-left: 5px;
 }
 
+.dropdown-selected-value{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 .dropdown-input {
     padding: 5px;
     display: flex;
@@ -27,7 +33,7 @@
     justify-content: space-between;
     user-select: none;
     height: 22px;
-    min-width: 61px
+    min-width: 65px
 }
 
 .dropdown-menu {

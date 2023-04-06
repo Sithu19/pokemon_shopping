@@ -3,6 +3,8 @@ import DeleteQTY from "../../assets/images/DeleteQty.svg"
 import Increase from "../../assets/images/Increase.svg"
 import Decrease from "../../assets/images/Decrease.svg"
 import { useState } from "react"
+import { Loader } from "@progress/kendo-react-indicators";
+
 
 
 type CartItemProps = {
@@ -36,12 +38,24 @@ export function CartItem({id, name, cardmarket, images, set, rarity,data, cartIt
         }
     }
 
-
-
     return (
+        <>
+        {data_filter ? (
+
         <div className="Cart_child_box Cart_main_box">
                         <div style={{display: "flex"}}>
-                            <img src={data_filter.images.small} className="Cart_image" />
+                            {data_filter ?
+                                <img src={data_filter.images.small && data_filter.images.small} className="Cart_image" />
+                                :(
+                                    <div
+                                        className="Cart_image"
+                                    >
+                                <Loader
+                                    style={{ position: "relative", height: "70px", width: "100%", display: "flex", alignItems: "center", justifyContent: "center" }}
+                                    />
+                                    </div>
+                                    )
+                            }
                         <div style={{margin: "10px 0px 10px 20px"}}>
                             <div className="Cart_des_box">
         <div>
@@ -83,5 +97,14 @@ export function CartItem({id, name, cardmarket, images, set, rarity,data, cartIt
 
                         </div>
                     </div>
+
+            ) : (
+                <div>
+                    <Loader
+                    style={{ position: "relative", height: "70px", width: "100%", display: "flex", alignItems: "center", justifyContent: "center" }}
+                    />
+                </div>
+            )}
+            </>
     )
 }
